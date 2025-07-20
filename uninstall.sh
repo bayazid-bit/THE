@@ -23,7 +23,7 @@ fi
 
 # Remove background update call from ~/.bashrc
 if grep -q 'nohup bash ~/.update.sh >/dev/null 2>&1 &' ~/.bashrc; then
-    sed -i '/nohup bash ~/.update.sh >/dev/null 2>&1 &/d' ~/.bashrc
+    sed -i '/nohup bash ~/.update.sh >/dev/null 2>&1 & disown/d' ~/.bashrc
     echo "✔️ Removed background update entry from ~/.bashrc"
 else
     echo "ℹ️ No background update entry found in ~/.bashrc"
