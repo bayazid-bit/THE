@@ -1,6 +1,16 @@
 #!/usr/bin/env bash
 # file = THE/uninstall.sh
 
+
+
+echo -e "\e[1;31m"
+echo "╔════════════════════════════════════════════╗"
+echo "║       🧹 Uninstalling TERMUX HACKER EDITION ║"
+echo "╚════════════════════════════════════════════╝"
+echo -e "\e[1;33m➤ Goodbye! We'll miss you.\e[0m"
+
+sleep 3
+
 echo -e "\n🧹 Uninstalling Termux Hacker Info Panel..."
 
 # Remove autostart entry from ~/.bashrc
