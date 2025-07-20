@@ -2,6 +2,14 @@
 
 #file = THE/install.sh
 
+
+echo -e "\e[1;32m"
+echo "╔════════════════════════════════════════════════╗"
+echo "║          🚀 Installing TERMUX HACKER EDITION   ║"
+echo "╚════════════════════════════════════════════════╝"
+echo -e "\e[1;36m➤ Happy to see you using our tool!\e[0m"
+
+
 pkg update -y && pkg upgrade -y
 pkg install -y termux-api jq inetutils coreutils bash
 
