@@ -27,8 +27,8 @@ else
     echo "ℹ️ ~/.banner.sh not found."
 fi
 
-if [ -f ~/.update_banner.sh ]; then
-    rm ~/.update_banner.sh
+if [ -f ~/.update.sh ]; then
+    rm ~/.update.sh
     echo "✔️ Removed ~/.update.sh"
 else
     echo "ℹ️ ~/.update.sh not found."
