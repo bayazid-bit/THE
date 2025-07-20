@@ -15,9 +15,9 @@ Welcome to **THE (Termux Hacker Edition)** — a sleek info panel for Termux sho
 - Background auto-update script to keep info panel fresh
 
 ---
-##ScreenShot:   
+## ScreenShot:   
 
-<img src="./screenShot.jpg" width=200 height=300> 
+<img src="./screenShot.jpg" width=400 height=600> 
 
 
 ---
