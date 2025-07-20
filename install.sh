@@ -7,18 +7,18 @@ pkg install -y termux-api jq inetutils coreutils bash
 
 termux-setup-storage
 
-if [ -f ".banner.sh" ]; then
+if [ -f "./banner.sh" ]; then
     cp ./banner.sh ~/.banner.sh
 else
-    echo "❌ Warning: .banner.sh file not found in current directory!"
+    echo "❌ Warning: banner.sh file not found in current directory!"
 fi
 
 
-if [ -f ".update_banner.sh" ]; then
+if [ -f "./update.sh" ]; then
     cp ./update.sh ~/.update.sh
     chmod +x ~/.update.sh
 else
-    echo "⚠️ Note: .update.sh not found. Update feature will not work."
+    echo "⚠️ Note: update.sh not found. Update feature will not work."
 fi
 
 
