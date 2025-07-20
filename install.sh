@@ -25,7 +25,7 @@ fi
 grep -qxF 'source ~/.banner.sh' ~/.bashrc || echo 'source ~/.banner.sh' >> ~/.bashrc
 
 # Add background update call if not already present
-grep -qxF 'nohup bash ~/.update.sh >/dev/null 2>&1 &' ~/.bashrc || echo 'nohup bash ~/.update.sh >/dev/null 2>&1 &' >> ~/.bashrc
+grep -qxF 'nohup bash ~/.update.sh >/dev/null 2>&1 & disown' ~/.bashrc || echo 'nohup bash ~/.update.sh >/dev/null 2>&1 & disown' >> ~/.bashrc
 
 echo -e "\n📢 If your WiFi SSID shows null, go to:"
 echo -e "Settings → Apps → Termux → Permissions → Allow Location"
