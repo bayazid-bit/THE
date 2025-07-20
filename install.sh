@@ -7,22 +7,21 @@ pkg install -y termux-api jq inetutils coreutils bash
 
 termux-setup-storage
 
-# Check and copy .banner.sh
 if [ -f ".banner.sh" ]; then
     cp .banner.sh ~/.banner.sh
 else
     echo "❌ Warning: .banner.sh file not found in current directory!"
 fi
 
-# Check and copy .update_banner.sh (optional, if তুমি রাখো)
+
 if [ -f ".update_banner.sh" ]; then
-    cp ./update.sh ~/.update_banner.sh
+    cp ./update.sh ~/.update.sh
     chmod +x ~/.update_banner.sh
 else
     echo "⚠️ Note: .update_banner.sh not found. Update feature will not work."
 fi
 
-# Add autostart entry for .banner.sh if not already present
+
 grep -qxF 'bash ~/.banner.sh' ~/.bashrc || echo 'bash ~/.banner.sh' >> ~/.bashrc
 
 # Add background update call if not already present
