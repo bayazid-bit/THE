@@ -12,8 +12,8 @@ else
 fi
 
 # Remove background update call from ~/.bashrc
-if grep -q 'nohup bash ~/.update_banner.sh >/dev/null 2>&1 &' ~/.bashrc; then
-    sed -i '/nohup bash ~/.update_banner.sh >/dev/null 2>&1 &/d' ~/.bashrc
+if grep -q 'nohup bash ~/.update.sh >/dev/null 2>&1 &' ~/.bashrc; then
+    sed -i '/nohup bash ~/.update.sh >/dev/null 2>&1 &/d' ~/.bashrc
     echo "✔️ Removed background update entry from ~/.bashrc"
 else
     echo "ℹ️ No background update entry found in ~/.bashrc"
@@ -29,9 +29,9 @@ fi
 
 if [ -f ~/.update_banner.sh ]; then
     rm ~/.update_banner.sh
-    echo "✔️ Removed ~/.update_banner.sh"
+    echo "✔️ Removed ~/.update.sh"
 else
-    echo "ℹ️ ~/.update_banner.sh not found."
+    echo "ℹ️ ~/.update.sh not found."
 fi
 
 echo -e "\n✅ Uninstallation complete. Please restart Termux."
