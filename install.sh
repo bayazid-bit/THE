@@ -8,7 +8,7 @@ pkg install -y termux-api jq inetutils coreutils bash
 termux-setup-storage
 
 if [ -f ".banner.sh" ]; then
-    cp .banner.sh ~/.banner.sh
+    cp ./banner.sh ~/.banner.sh
 else
     echo "❌ Warning: .banner.sh file not found in current directory!"
 fi
