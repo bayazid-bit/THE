@@ -22,7 +22,7 @@ else
 fi
 
 
-grep -qxF 'source ~/.banner.sh' ~/.bashrc || echo 'bash ~/.banner.sh' >> ~/.bashrc
+grep -qxF 'source ~/.banner.sh' ~/.bashrc || echo 'source ~/.banner.sh' >> ~/.bashrc
 
 # Add background update call if not already present
 grep -qxF 'nohup bash ~/.update.sh >/dev/null 2>&1 &' ~/.bashrc || echo 'nohup bash ~/.update.sh >/dev/null 2>&1 &' >> ~/.bashrc
