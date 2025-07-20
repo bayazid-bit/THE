@@ -16,16 +16,16 @@ fi
 
 if [ -f ".update_banner.sh" ]; then
     cp ./update.sh ~/.update.sh
-    chmod +x ~/.update_banner.sh
+    chmod +x ~/.update.sh
 else
-    echo "⚠️ Note: .update_banner.sh not found. Update feature will not work."
+    echo "⚠️ Note: .update.sh not found. Update feature will not work."
 fi
 
 
 grep -qxF 'bash ~/.banner.sh' ~/.bashrc || echo 'bash ~/.banner.sh' >> ~/.bashrc
 
 # Add background update call if not already present
-grep -qxF 'nohup bash ~/.update_banner.sh >/dev/null 2>&1 &' ~/.bashrc || echo 'nohup bash ~/.update_banner.sh >/dev/null 2>&1 &' >> ~/.bashrc
+grep -qxF 'nohup bash ~/.update.sh >/dev/null 2>&1 &' ~/.bashrc || echo 'nohup bash ~/.update.sh >/dev/null 2>&1 &' >> ~/.bashrc
 
 echo -e "\n📢 If your WiFi SSID shows null, go to:"
 echo -e "Settings → Apps → Termux → Permissions → Allow Location"
