@@ -84,7 +84,7 @@ bash install.sh
 
 This will:
 
-* Copy `.banner.sh` and `.update_banner.sh` to your home directory.
+* Copy `.banner.sh` and `.update.sh` to your home directory.
 * Add commands in your `~/.bashrc` to automatically start the info panel and the background update script.
 * Notify you to restart Termux.
 
@@ -103,7 +103,7 @@ The tool runs an update script silently in the background on each new Termux ses
 If you want to manually update THE scripts, run:
 
 ```bash
-bash ~/.update_banner.sh
+bash ~/.update.sh
 ```
 
 This will fetch the latest `.banner.sh` from your GitHub repo.
@@ -123,7 +123,7 @@ bash uninstall.sh
 2. This will:
 
 * Remove the autostart entries from your `~/.bashrc`.
-* Delete the `.banner.sh` and `.update_banner.sh` scripts from your home directory.
+* Delete the `.banner.sh` and `.update.sh` scripts from your home directory.
 * Inform you to restart Termux.
 
 3. Restart Termux to confirm removal.
@@ -139,7 +139,7 @@ bash uninstall.sh
   Ensure `termux-api` is installed and permissions are granted.
 
 * **Update script not working?**
-  Check your internet connection or run `bash ~/.update_banner.sh` manually to see errors.
+  Check your internet connection or run `bash ~/.update.sh` manually to see errors.
 
 * **Prompt colors or info panel missing?**
   Confirm that `.banner.sh` is sourced in your `~/.bashrc` by this line:
