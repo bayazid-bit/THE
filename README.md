@@ -44,6 +44,15 @@ pkg install -y termux-api jq inetutils coreutils bash curl
 * **coreutils, bash** : Core Linux utilities and shell.
 * **curl** : To download update script.
 
+### 📲 3.1 Install Termux:API App (Important!)
+
+To allow Termux to access system features like battery, WiFi, storage, etc., install the **Termux:API app** from F-Droid:
+
+👉 [https://f-droid.org/en/packages/com.termux.api/](https://f-droid.org/en/packages/com.termux.api/)
+
+This is required for all `termux-*` commands to work properly.
+
+
 ### 4. Setup Storage Permission
 
 Run this command to allow Termux access to device storage:
