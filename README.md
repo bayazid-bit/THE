@@ -50,7 +50,7 @@ To allow Termux to access system features like battery, WiFi, storage, etc., ins
 
 👉 [https://f-droid.org/en/packages/com.termux.api/](https://f-droid.org/en/packages/com.termux.api/)
 
-Or Direct download from this link and install [hare](https://f-droid.org/repo/com.termux.api_1000.apk)
+Or Direct download from this link quickly  [https://f-droid.org/repo/com.termux.api_1000.apk](https://f-droid.org/repo/com.termux.api_1000.apk)
 
 This is required for all `termux-*` commands to work properly.
 
