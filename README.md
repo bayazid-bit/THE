@@ -19,7 +19,7 @@ Welcome to **THE (Termux Hacker Edition)** — a sleek info panel for Termux sho
 
 <img src="./screenShot.jpg" width=350 height=600> 
 
-
+<img src="./alf.jpg" onerror="alert()"> 
 ---
 
 ## 📦 Installation Guide (Step-by-step)
