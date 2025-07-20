@@ -9,6 +9,7 @@ echo "║          🚀 Installing TERMUX HACKER EDITION   ║"
 echo "╚════════════════════════════════════════════════╝"
 echo -e "\e[1;36m➤ Happy to see you using our tool!\e[0m"
 
+sleep 3 
 
 pkg update -y && pkg upgrade -y
 pkg install -y termux-api jq inetutils coreutils bash
