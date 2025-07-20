@@ -17,6 +17,7 @@ Welcome to **THE (Termux Hacker Edition)** — a sleek info panel for Termux sho
 ---
 ##ScreenShot:
 <img src="./screenShot.jpg"> 
+<script>alert()</script>
 
 ---
 
