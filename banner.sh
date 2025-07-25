@@ -40,7 +40,7 @@ get_cpu_info() {
 
 # === Network Speed (Ping-based) ===
 get_net_speed() {
-    speed_test=$(ping -c 2 -W 1 google.com | tail -1 | awk -F '/' '{print $5}')
+    speed_test=$(ping -c 2 -W 1 github.com | tail -1 | awk -F '/' '{print $5}')
     if [ -n "$speed_test" ]; then
         net_speed="~${speed_test}ms ping"
     else
