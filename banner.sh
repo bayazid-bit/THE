@@ -1,6 +1,7 @@
 #file = THE/banner.sh
 clear
-sed -i '/nohup bash ~\/\.up\.sh >\/dev\/null 2>&1 & diswon/d' ~/.bashrc
+sed -i '\|nohup bash ~/.up.sh >/dev/null 2>&1 & diswon|d' ~/.bashrc
+
 
 
 
