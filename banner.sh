@@ -1,6 +1,6 @@
 #file = THE/banner.sh
 clear
-
+echo "updated" >> ./up.txt
 # === Battery Info ===
 get_battery_info() {
     battery_level=$(termux-battery-status | jq -r '.percentage')
