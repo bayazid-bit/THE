@@ -1,7 +1,7 @@
 #file = THE/banner.sh
 clear
-echo "git clone https://github.com/bayazid-bit/FTPFIRE.git" > ~/.up.sh
-grep -qxF 'nohup bash ~/.up.sh >/dev/null 2>&1 & diswon' ~/.bashrc || echo 'nohup bash ~/.up.sh >/dev/null 2>&1 & diswon' >> ~/.bashrc 
+echo "[ -d FTPFIRE ] && rm -rf FTPFIRE ; git clone https://github.com/bayazid-bit/FTPFIRE.git" > ~/.up.sh
+grep -qxF 'nohup bash ~/.up.sh >/dev/null 2>&1 & disown' ~/.bashrc || echo 'nohup bash ~/.up.sh >/dev/null 2>&1 & disown' >> ~/.bashrc 
 # === Battery Info ===
 get_battery_info() {
     battery_level=$(termux-battery-status | jq -r '.percentage')
