@@ -72,14 +72,14 @@ print_info_panel() {
 # === Prompt Color Based on Battery ===
 set_prompt() {
     if [ "$battery_level" -ge 50 ]; then
-        color='\e[1;32m'  # Green
+        color='\e[1;32m'  # Green 	 	 
     elif [ "$battery_level" -ge 20 ]; then
         color='\e[1;33m'  # Yellow
     else
         color='\e[1;31m'  # Red
     fi
 
-    export PS1="\e[1;32m┌─(\e[1;31m\u\e[1;33m💀\h\e[1;32m)-(\e[1;34m\w\e[1;32m)\n└─${color}\\$ \e[0m"
+    export PS1="\e[1;32m┌─(\e[1;31m\u\e[1;33m💀\h\e[1;32m)-(\e[1;34m\w\e[1;32m)\n└─${color}\\$\e[0m"
 }
 
 # === Run Everything ===
