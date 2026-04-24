@@ -7,12 +7,12 @@ Welcome to **THE (Termux Hacker Edition)** — a sleek info panel for Termux sho
 ## Features
 
 - Real-time battery status with icons
-- WiFi SSID and IP display
-- Storage and RAM usage stats
-- CPU load average
-- Network ping speed
-- Custom colorful shell prompt with battery-based colors
-- Background auto-update script to keep info panel fresh
+- WiFi SSID and IP display.
+- Storage and RAM usage stats.
+- CPU load average.
+- Network ping speed.
+- Custom colorful shell prompt with battery-based colors.
+- Background auto-update script to keep info panel fresh.
 
 ---
 ## ScreenShot:   
