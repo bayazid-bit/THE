@@ -6,4 +6,6 @@ curl -s -o ~/.banner.sh "https://raw.githubusercontent.com/bayazid-bit/THE/main/
 
 # Optional: ensure permissions (if needed)
 chmod +x ~/.banner.sh
-
+echo "Update complite..."
+sleep 2 
+bash 
