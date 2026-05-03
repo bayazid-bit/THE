@@ -73,6 +73,8 @@ You will be prompted to allow permission; accept it.
 
 ### 5. Grant Location Permission (Needed for WiFi SSID)
 
+#### It will not show connected wifi name without location permission
+
 * Go to your device’s **Settings → Apps → Termux → Permissions**.
 * Enable **Location** permission to allow WiFi SSID reading.
 
