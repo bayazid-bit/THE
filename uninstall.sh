@@ -11,7 +11,7 @@ echo -e "\e[1;33m➤ Goodbye! We'll miss you.\e[0m"
 
 sleep 3
 
-echo -e "\n🧹 Uninstalling Termux Hacker Info Panel..."
+echo -e "\n🧹 Uninstalling Termux Hacker Edition Panel..."
 
 # Remove autostart entry from ~/.bashrc
 if grep -q 'bash ~/.banner.sh' ~/.bashrc; then
