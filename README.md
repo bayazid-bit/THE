@@ -1,4 +1,4 @@
-# THE (Termux Hacker Edition)
+# THE (Termux Hacker Edition).
 
 Welcome to **THE (Termux Hacker Edition)** — a sleek info panel for Termux showing battery, WiFi, storage, RAM, CPU load, network speed, and more, with a hacker-style prompt That can be useful while hacking ...
 
